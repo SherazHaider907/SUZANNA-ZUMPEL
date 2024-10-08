@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+    background-color: hsl(75, 32%, 78%);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(0, 208, 255);
+    background-image: url(./images/atikh-bana-FtBS0p23fcc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#overlay{
+    height: 100%;
+    width: 1005;
+    background-color:hsla(75, 32%, 78%, 0.358);
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: rgb(0, 255, 4); */
+}
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50);
+}
+#text-div>h1{
+    font-size: 95px;
+    font-family: monument;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 8px;
+    line-height: 78px;
+
+    text-transform: uppercase;
+}
+#samall-image-div {
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0% -50%);
+    background-image: url(./images/christopher-campbell-wtZgw1nQ3FI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#vertical-text{
+    position: absolute;
+
+    right: -60%;
+        top: -6%;
+    transform-origin: 0% 0%;
+   
+    /* width: 100%; */
+    /* background-color: red; */
+}
+#vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    transform: rotate(90deg); 
+    font-family: monument;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#fff ;
+}
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    /* background-color: red; */
+    left: 8%;
+    top: 7%;
+    width: 600px;
+    
+
+}
+#nav h5{
+    font-size: 20px;
+    color: #fff;
+    font-family: gilroy;
+}
